@@ -1,0 +1,9 @@
+A monthly electricity bill is calculated as follows:
+
+Rs 200 for monthly service fee
+Rs 5 per unit for for the first 100 units. Rs 10 per unit for the next 100 units. Rs 20 for every unit above that amount.
+15% tax
+
+
+  1. Write a function electricity_bill (units:int) that calculates the monthly amount.
+  2. Show the evaluation of electricity_bill 220
