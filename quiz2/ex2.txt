@@ -1,0 +1,18 @@
+
+/****problem******/
+
+A school management system stores the names of each student and the classroom that they belong to. A classroom is identified by an integer grade and letter section such as 2A, 5B, 6F, ...
+
+Do the following:
+
+	1. Define record types for student, and classroom.
+	2. Define a boolean function "same_grade" which check whether two students belong to the same grade (but not necessarily same classroom!)
+
+
+/****Answer****/
+
+let same_grade (s1:student) (s2:student) = 
+	let g1 = s1.classroom in
+	let g2 = s2.classroom in
+		if g1.grade = g2.grade then true
+		else false;;
